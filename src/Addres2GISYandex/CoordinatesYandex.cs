@@ -19,7 +19,7 @@ public class CoordinatesYandex {
                 string json = await response.Content.ReadAsStringAsync();
                 JObject result = JObject.Parse(json);
                 var pos = result["response"]["GeoObjectCollection"]["featureMember"][0]["GeoObject"]["Point"]["pos"];
-                pos = null;
+                
                 if (pos != null) {
                     return pos.ToString();
                 }
