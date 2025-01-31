@@ -1,7 +1,7 @@
 using MapInfo;
 using Newtonsoft.Json.Linq;
 
-namespace AddressToCoordinates;
+namespace Addres2GISYandex;
 
 public class CoordinatesCompany {
 
@@ -14,7 +14,7 @@ public class CoordinatesCompany {
 
       if (!response.IsSuccessStatusCode) {
         Console.WriteLine(
-            $"Ошибка при запросе к API 2GIS: {response.StatusCode}");
+            $"Ошибка при запросе к API: {response.StatusCode}");
         return null;
       }
       string json = await response.Content.ReadAsStringAsync();

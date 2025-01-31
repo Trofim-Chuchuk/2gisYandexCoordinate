@@ -1,4 +1,4 @@
-﻿using AddressToCoordinates;
+﻿using Addres2GISYandex;
 using MapInfo;
 
 Console.WriteLine("Введите адрес:");

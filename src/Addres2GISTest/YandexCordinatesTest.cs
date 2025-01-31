@@ -1,4 +1,4 @@
-using AddressToCoordinates;
+using Addres2GISYandex;
 using MapInfo;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 
