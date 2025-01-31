@@ -16,11 +16,11 @@ public class YandexCordinatesTest {
     
     [Fact]
     public async Task NSU(){
-        string address = "Новосибирского государственного университета ";
+        string address = "Новосибирский государственный университет";
         
         var yandexCoordinates = await CoordinatesYandex.GetCoordinatesYandex(address);
         
-        Assert.Equal("72.512558 37.102891", yandexCoordinates);
+        Assert.Equal("82.665694 54.826022", yandexCoordinates);
     }
     
 }
